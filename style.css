@@ -57,9 +57,10 @@ button{
     }
     td:nth-child(2){
         font-size: 12px;
+        padding-left: 10px;
     }
     #container{
-        padding-left: 25px;
-        padding-right: 90px;
+        padding: 30px 25px;
+        width:70%;
     }
 }
