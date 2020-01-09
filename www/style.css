@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Knockout";
+    src: url("knockout.woff") format("woff")
+}
+
+body{
+    font-family: 'Knockout';
+    color: white;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+h1,h2{
+    font-weight: 400;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+#container{
+    border: 1px solid white;
+    width: 50%;
+    padding: 30px 75px;
+}
+
+td{
+    vertical-align: unset;
+    padding-bottom: 25px;
+}
+
+td:first-child{
+    font-weight: bold;
+}
+
+td:nth-child(2){
+    padding-left: 50px;
+}
