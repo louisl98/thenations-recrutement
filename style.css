@@ -49,5 +49,17 @@ button{
     height: 50px;
     width: 150px;
     font-size: 20px;
-    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    td:first-child{
+        font-size: 16px;
+    }
+    td:nth-child(2){
+        font-size: 12px;
+    }
+    #container{
+        padding-left: 25px;
+        padding-right: 90px;
+    }
 }
