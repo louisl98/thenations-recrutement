@@ -14,7 +14,7 @@ import (
 var (
 	addr      = flag.String("addr", "localhost:8080", "TCP address to listen to")
 	byteRange = flag.Bool("byteRange", false, "Enables byte range requests if set to true")
-	dir       = flag.String("dir", "./www/", "Directory to serve static files from")
+	dir       = flag.String("dir", "./vendor/", "Directory to serve static files from")
 )
 
 func main() {
