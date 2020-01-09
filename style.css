@@ -25,6 +25,7 @@ h2{
     border: 1px solid white;
     width: 50%;
     padding: 30px 75px;
+    margin-bottom: 50px;
 }
 
 td{
@@ -38,4 +39,14 @@ td:first-child{
 
 td:nth-child(2){
     padding-left: 50px;
+}
+
+button{
+    border: white 1px solid;
+    color: white;
+    background: black;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
 }
