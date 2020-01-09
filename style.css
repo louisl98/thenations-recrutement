@@ -32,6 +32,10 @@ td{
     padding-bottom: 25px;
 }
 
+td:first-child{
+    font-size: 22px;
+}
+
 td:nth-child(2){
     padding-left: 50px;
 }
