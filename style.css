@@ -23,7 +23,7 @@ h2{
 
 #container{
     border: 1px solid white;
-    width: 50%;
+    width: 60%;
     padding: 30px 75px;
     margin-bottom: 50px;
 }
@@ -33,12 +33,22 @@ td{
     padding-bottom: 25px;
 }
 
+#textfield{
+    font-size: 2px;
+}
+
+
 td:first-child{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 td:nth-child(2){
     padding-left: 50px;
+}
+
+.descriptionCompany {
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }
 
 button{
@@ -49,6 +59,20 @@ button{
     height: 50px;
     width: 150px;
     font-size: 20px;
+}
+
+.descriptionJob{
+    color: transparent;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.h2{
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+    ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 @media screen and (max-width: 600px) {
