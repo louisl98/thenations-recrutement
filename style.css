@@ -63,10 +63,11 @@ button{
     height: 50px;
     width: 150px;
     font-size: 20px;
+    display: none;
 }
 
-button.submit{
-    display: none;
+button.postuler{
+    display: block;
 }
 
 .descriptionJob{
