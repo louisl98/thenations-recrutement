@@ -65,6 +65,10 @@ button{
     font-size: 20px;
 }
 
+.submit{
+    display: none;
+}
+
 .descriptionJob{
     color: transparent;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);

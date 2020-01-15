@@ -68,10 +68,6 @@
                 <td>Musique</td>
             </tr>
             <tr>
-                <td>Description de l'entreprise</td>
-                <td>Label et chaînes promotionnelles</td>
-            </tr>
-            <tr>
                 <td>Au délà de l’entreprise : activité?</td>
                 <td>Youtube, réseaux sociaux, Spotify...</td>
             </tr>
@@ -87,7 +83,8 @@
         </table>
     </div>
 
-    <button onClick="location.href='mailto:contact@thenations-recrutement.fr?subject=J\'ai trouvé la solution et je souhaite postuler !&body=Bonjour'">Postuler !</button>
-
+    <button class="submit" onClick="location.href='mailto:contact@thenations-recrutement.fr?subject=J\'ai trouvé la solution et je souhaite postuler !&body=Bonjour'">Postuler !</button>
+    <button class = "postuler">Postuler !</button>
+    <script type="text/javascript">$(function(){if ($('.postuler').css('display') == ('none')) {$('.submit').css('display','block');}else if ($('.postuler').css('display') == ('block')) {$('.submit').css('display','none');}});</script>
 </body>
 </html>
