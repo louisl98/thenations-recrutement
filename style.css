@@ -96,3 +96,9 @@ button{
         width:70%;
     }
 }
+
+.presentation{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 375px;
+}
