@@ -69,10 +69,6 @@ button.submit{
     display: none;
 }
 
-button.postuler{
-    display: block;
-}
-
 .descriptionJob{
     color: transparent;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
