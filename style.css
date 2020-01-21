@@ -21,6 +21,17 @@ h1,h2{
     font-weight: 400;
 }
 
+.h2{
+    font-family: 'Knockout';
+    color: white;
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+    ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
 h2{
     margin-top: 50px;
 }
@@ -51,11 +62,14 @@ td:nth-child(2){
 }
 
 .descriptionCompany {
+    font-size: 18px;
+    font-family: 'Knockout';
+    color: white;
     direction: rtl;
     unicode-bidi: bidi-override;
 }
 
-button{
+#submit{
     border: white 1px solid;
     color: white;
     background: black;
@@ -66,22 +80,12 @@ button{
     display: none;
 }
 
-button.postuler{
-    display: block;
-}
-
 .descriptionJob{
+    font-size: 18px;
+    font-family: 'Knockout';
+    color: white;
     color: transparent;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-}
-
-.h2{
-    -webkit-transform:rotate(-180deg);
-    -moz-transform:rotate(-180deg);
-    -o-transform:rotate(-180deg);
-    transform:rotate(-180deg);
-    ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-    filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 @media screen and (max-width: 600px) {

@@ -66,7 +66,7 @@
                     Community Manager : Andre Willem Benz</td>
             </tr>
             <tr>
-                <td>Secteur</td>
+                <td onClick = "buttonAppear()">Secteur</td>
                 <td>Musique</td>
             </tr>
             <tr>
@@ -85,8 +85,9 @@
         </table>
     </div>
 
-    <button class="submit" onClick="location.href='mailto:contact@thenations-recrutement.fr?subject=J\'ai trouvé la solution et je souhaite postuler !&body=Bonjour'">Postuler !</button>
-    <button class = "postuler">Postuler !</button>
-    <!-- <script type="text/javascript">$(function(){if ($('.postuler').css('display') == ('none')) {$('.submit').css('display','block');}else if ($('.postuler').css('display') == ('block')) {$('.submit').css('display','none');}});</script> -->
+    <button id="submit" onClick="location.href='mailto:a_vanhoorde@etu-webschoolfactory.fr?subject=J\'ai trouvé la solution et je souhaite postuler !&body=Bonjour'">Postuler !</button>
+    <script type="text/javascript">
+    function buttonAppear(){document.getElementById('submit').style.display="block";}
+    </script>
 </body>
 </html>
